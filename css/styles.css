@@ -1,0 +1,30 @@
+body {
+    font-family: "ruboto", serif;
+    color: #434455;
+    background-color: #FFFFFF;
+    line-height: 24px;
+}
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+
+.logo-second {
+    color: #2E2F42;
+}
+
+.navigation {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #2E2F42;
+}
