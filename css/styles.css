@@ -40,12 +40,26 @@ a {
     color: #2E2F42;
 }
 
-.adress {
+.navigation:hover,
+.navigation:focus {
+    color: #404bbf;
+}
+
+.address {
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: #434455;
+}
+
+.address:hover,
+.address:focus {
+    color: #404bbf;
+}
+
+.main-section {
+    background-color: #2E2F42;
 }
 
 h1 {
@@ -55,16 +69,21 @@ h1 {
     letter-spacing: 0.02em;
     text-align: center;
     color: #FFFFFF;
-    background-color: #2E2F42;
 }
 
-.botton {
+.button {
     border-radius: 4px;
     padding: 16px 32px;
     width: 169px;
     height: 56px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    background: #4D5AE5;
+    cursor: pointer;
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+}
+
+.button:hover,
+.button:focus {
+    background-color: #404BBF;
 }
 
 .four-blocks {
@@ -91,12 +110,22 @@ h2 {
     color: #2E2F42;
 }
 
+.our-team {
+    text-transform: capitalize;
+
+}
+
 .team {
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
     text-align: center;
+    background-color: #FFFFFF;
+}
+
+.our-team-section {
+    background-color: #F4F4FD;
 }
 
 .member-name {
